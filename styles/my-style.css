@@ -65,11 +65,12 @@ img{
 }
 .box{
     width: 500px;
-    background: rgb(0,0, 87);
+    background: rgb(63, 63, 184);
     margin: auto;
     margin-top: 4%;
     padding: 20px;
     color: white;
+    border-radius: 20PX;
 
 }
 .box h1{
@@ -99,4 +100,15 @@ img{
     background-color: aqua;
     color: #191c32;
     transition: ease-in .4s;
+}
+.about{
+    
+    width: 1000px;
+    color: white;
+    text-align: justify;
+   
+    margin: auto;
+}
+.brand span{
+    color: aqua;
 }
