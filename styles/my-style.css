@@ -112,3 +112,45 @@ img{
 .brand span{
     color: aqua;
 }
+.contacto{
+    padding: 3em;
+    margin: 0 auto;
+}
+.contacto h2{
+    color: aqua;
+    margin-left: 100;
+    text-align: center;
+   
+}
+.form{
+    text-align: center;
+}
+.input{
+    padding: 8px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+
+
+}
+.tipo-radio{
+
+    color: white;
+}
+.btn-submit{
+
+    
+
+    padding: 10px 43px;
+    border-radius: 20px;
+    border: none; 
+    cursor: pointer; 
+ }
+ .btn-submit:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .4s;
+}
+
+ 
