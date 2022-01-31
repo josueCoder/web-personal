@@ -153,4 +153,11 @@ img{
     transition: ease-in .4s;
 }
 
+  .footer{
+      color: white;
+      text-align: center;
+  }
+  .footer span{
+      color: aqua;
+  }
  
