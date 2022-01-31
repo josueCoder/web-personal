@@ -57,6 +57,11 @@ color: white;
     transition: ease-in .4s;
 
 }
+img{
+
+    display: block;
+    margin: auto;
+}
 .box{
     width: 500px;
     background: rgb(0,0, 87);
