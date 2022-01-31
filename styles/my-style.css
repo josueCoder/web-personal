@@ -55,6 +55,7 @@ color: white;
     background-color: aqua;
     color: #191c32;
     transition: ease-in .4s;
+    border-radius: 10px;
 
 }
 img{
@@ -82,15 +83,16 @@ img{
 .box section img{
 
     border-radius: 50%;
+    border: 2px solid aqua;
 }
 .box a button{
    
    margin-left: 39%;
 
-   padding: 10px;
-   border-radius: 10px;
-  
-
+   padding: 10px 20px;
+   border-radius: 20px;
+   border: none; 
+   cursor: pointer; 
 }
 
 .box a button:hover{
