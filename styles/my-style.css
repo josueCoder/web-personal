@@ -71,13 +71,21 @@ img{
     color: white;
 
 }
+.box h1{
+    text-align: center;
+    font-size: 31px;
+    color: aqua;
+}
+.box h2{
+    text-align: center;
+}
 .box section img{
 
     border-radius: 50%;
 }
 .box a button{
    
-    margin-left: 39%;
+   margin-left: 39%;
 
    padding: 10px;
    border-radius: 10px;
