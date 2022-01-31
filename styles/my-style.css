@@ -75,3 +75,18 @@ img{
 
     border-radius: 50%;
 }
+.box a button{
+   
+    margin-left: 39%;
+
+   padding: 10px;
+   border-radius: 10px;
+  
+
+}
+
+.box a button:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .4s;
+}
