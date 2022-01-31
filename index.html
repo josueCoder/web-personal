@@ -4,32 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/my-style.css">
     <title>Rody Josue Ccoyllo Cule</title>
 </head>
 <body>
     <header>
-
+                <nav class="navbar">
+                    <div class="brand">
+                        <h2>R<span>J</span></h2>
+                    </div>
+                    <ul class="menu">
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Abaut me</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
     </header>
     <main>
         <article class="box">
-            <section>
-                <img src="./img/foto-perfil.jfif" alt="foto-de-perfil">
+            <section >
+                <img src="./img/foto-perfil.jfif" alt="foto-de-perfil" width="145px"/>
             </section>
 
     
     
-            <h1>RODY JOSUE CCOYLLO CULE</h1>
-            <h2>Software Engineer|Developer|UX desiner</h2>
+            <h1>Rody Josue Ccoyllo Cule</h1>
+            <h2>Software Engineer|Developer</h2>
             <p>
                 Estudiante de la especialidad de ingeniería sofware  con capacidad de proponer y crear 
                 soluciones tecnológicas creativas, robustas, escalables e innovadoras en las áreas de 
                 conocimiento relacionadas con la Ingeniería de Sistemas, Ingeniería de Software y Sistemas inteligentes.
                 Con muchas ganas de aprender y colabarorar con el equipo de trabajo.
+               
             </p>
+            <a  download="#"   href="#"><button>Dowload CV</button></a>
 
             
         </article>
-    </main>  
+    </main> 
+    <br/>
+    <section class="about">
+        <h2 class="brand">About <span>me</span></h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque rem est, voluptatibus pariatur 
+          dicta iste commodi amet necessitatibus tempora libero porro quas provident quidem ullam quos eligendi 
+          exercitationem ea dignissimos.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis consequuntur eos repudiandae 
+          dolorem. Aspernatur quis ratione perspiciatis quisquam odit nostrum saepe laudantium voluptas rem, rerum id modi ad quasi.
+        </p>
+    </section> 
+    <section class="contacto">
+            <h2>Contacto</h2>
+            <form action="" class="form">
+                <input  class="input"  type="text" name="name" placeholder="Nombre"/>
+                <br/>
+                <input  class="input" type="email" name="email" placeholder="Email">
+                <br/>
+               
+                <textarea class="input"  name="mensaje" id="mensaje" cols="30" rows="10" placeholder="coloca tu mensaje aqui ..."></textarea>
+                <br/>
+                <button name="btn-submit"  class="btn-submit">Enviar</button>
+            </form>
+    </section>
     <footer>
 
     </footer>
