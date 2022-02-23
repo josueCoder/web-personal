@@ -72,44 +72,83 @@ img{
     display: block;
     margin: auto;
 }
-.box{
-    width: 500px;
+.main{
+    margin: 20px 0;
+}
+.main__box{
+    max-width: 450px;
     background: rgb(63, 63, 184);
     margin: auto;
-    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding: 20px;
     color: white;
     border-radius: 20PX;
+    
 
 }
-.box h1{
+.box__description{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8px;
+}
+
+.box__foto-perfil__container{
+    max-width: 145px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+   
+
+}
+.box__foto-perfil__foto-perfil{
+    width: 100%;
+    hi
+}
+
+.box__description__title{
     text-align: center;
     font-size: 31px;
     color: aqua;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
 }
-.box h2{
+.box__description__speciality{
     text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: gold;
 }
-.box section img{
+.box__description__description{
+    text-align: center;
+    font-weight: 370;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.box__description__dowload-cv{
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    padding: 8px 16px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: solid black;
+    transition:all 0.5s;
+    
+}
+.box__description__dowload-cv:hover{
+    background-color: gold;
+    
+    transition:all 0.5s;
+    
+    
+}
 
-    border-radius: 50%;
-    border: 2px solid aqua;
-}
-.box a button{
-   
-   margin-left: 39%;
-
-   padding: 10px 20px;
-   border-radius: 20px;
-   border: none; 
-   cursor: pointer; 
-}
-
-.box a button:hover{
-    background-color: aqua;
-    color: #191c32;
-    transition: ease-in .4s;
-}
 .about{
     
     width: 1000px;
